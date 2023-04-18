@@ -5,10 +5,8 @@
 
   // add a click event listener to the button
   removeButton.addEventListener('click', () => {
-    // get the selected option
+    // When the button is clicked, the selected color is 
+	// removed from the dropdown list using the remove method.
 	  colorSelect.remove(colorSelect.selectedIndex);
-    // const selectedColor = colorSelect.options[colorSelect.selectedIndex];
     
-    // // remove the selected option
-    // selectedColor.remove();
   });
